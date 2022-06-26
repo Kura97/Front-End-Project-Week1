@@ -21,3 +21,4 @@ function generatePassword()
 button.addEventListener("click", generatePassword)
 
 
+
