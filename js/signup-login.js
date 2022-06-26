@@ -2,8 +2,7 @@
 // signup function
 
 
-function signup(e){
-    event.preventDefault();
+function signup(){
    
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
@@ -19,9 +18,7 @@ function signup(e){
 
 
     // login function
-function login(e){
-    event.preventDefault();
-    
+function login(){    
 
     var password = document.getElementById('password').value;
     var result = document.getElementById('result');
